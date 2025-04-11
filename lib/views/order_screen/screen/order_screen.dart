@@ -45,6 +45,11 @@ class _OrderScreenState extends State<OrderScreen> {
           );
         },
       ),
+      floatingActionButton: FilledButton(
+        style: FilledButton.styleFrom(backgroundColor: Colors.grey.shade600),
+        onPressed: () {},
+        child: Text('Buyurtma berish', style: TextStyle(color: Colors.black)),
+      ),
     );
   }
 }
